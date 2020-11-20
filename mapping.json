@@ -1,0 +1,14 @@
+{
+  "32": {
+
+  },
+  "64": {
+  	"serverName": "",
+  	"map": "engine.dll+5AEFA0",
+  	"gamemode": "filesystem_stdio.dll+F8430"
+  },
+  "gamemodes": {
+  	"prop_hunt": "Prop Hunt",
+  	"terrortown": "TTT (Trouble in Terrorist Town)"
+  }
+}
