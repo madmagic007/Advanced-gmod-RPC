@@ -55,7 +55,7 @@ namespace Advancedgmodrpc {
                     Details = "In menus"
                 };
             } else {
-                string niceGamemode = GamemodeConverter.GetImageText(gamemode);
+                string niceGamemode = GamemodeConverter.GetNiceGameMode(gamemode);
                 string serverName = ReadString(addresses.serverName);
 
                 bool sameServer = serverName.Equals(lastServer);

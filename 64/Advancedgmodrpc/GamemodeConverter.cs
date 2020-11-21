@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json.Linq;
-using System;
 using System.Threading;
 
 namespace Advancedgmodrpc {
@@ -8,12 +7,12 @@ namespace Advancedgmodrpc {
 
         public static JObject gamemodes;
 
-        public static string GetImageText(string gamemode) {
+        public static string GetNiceGameMode(string gamemode) {
             if (!gamemodes.ContainsKey(gamemode)) {
                 Config.AppendGamemode(gamemode);
                 return Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(gamemode);
             }
-            return (string)gamemodes["gamemode"];
+            return (string) gamemodes[gamemode];
         }
     }
 }
