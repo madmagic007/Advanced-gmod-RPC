@@ -3,9 +3,9 @@
 
   },
   "64": {
-  	"serverName": "client.dll+8EF760",
+  	"serverName": "client.dll+8F1770",
   	"map": "engine.dll+5B1030",
-  	"gamemode": "client.dll+7DC4D8"
+  	"gamemode": "filesystem_stdio.dll+F0028"
   },
   "gamemodes": {
   	"prop_hunt": "Prop Hunt",
