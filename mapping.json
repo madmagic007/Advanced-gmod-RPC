@@ -3,7 +3,7 @@
 
   },
   "64": {
-  	"serverName": "client.dll+8F4CE0",
+  	"serverName": "client.dll+91F9B0",
   	"map": "engine.dll+5B3188",
   	"gamemode": "filesystem_stdio.dll+F9440"
   },
